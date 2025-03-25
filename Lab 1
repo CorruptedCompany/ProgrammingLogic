@@ -1,0 +1,33 @@
+# ProgrammingLogic
+Lab project for ID-1050
+using System;
+
+  class Program
+  {
+    static void Main(string[] args)
+    {
+        //Step 1 ;
+      Console.WriteLine(Spenser Sharp Programming Logic 1050);
+    
+        //Step 2;
+      /*Spenser Sharp
+      [IT-1050-Lab1]*/;
+
+        //Step 3;
+      int favNum = 16;
+      string code = C#;
+      double codeNum = 13;
+      bool experience = yes;
+
+        // Step 4;
+      int temp =52;
+      Console.WriteLine("The current temperature is "+temp+" degrees.");
+
+        //Step 5;
+      const string school = Cuyahoga Community College;
+      Console.WriteLine(school);
+
+        //Step 6;
+      
+    }
+  }
