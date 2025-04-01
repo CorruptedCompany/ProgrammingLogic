@@ -1,0 +1,74 @@
+using System.Security.Authentication.ExtendedProtection;
+using System.Security.Cryptography;
+
+namespace Lab2;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        Console.WriteLine("Hello, World!");
+    }
+}
+
+{
+
+    {
+
+        //Part 1;
+        int myNum = 22;
+        Console.WriteLine("myNum");
+        double mydub = 2.16;
+        Console.WriteLine("myDub");
+        float myfloat = 0.021602;
+        Console.WriteLine("myFloat");
+        char myChar = 'S';
+        Console.WriteLine("myChar");
+        bool myBool = true;
+        Console.WriteLine("myBool");
+        string myText = "Spenser Sharp";
+        Console.WriteLine("myText");
+
+        //Part 2;
+        double myvar = 9.78;
+        Console.WriteLine(Convert.ToInt32(myvar));
+        Console.WriteLine(Convert.ToString(myBool));
+
+        //Part 3;
+         Console.WriteLine("Type firstName:");
+        string firstName = Console.ReadLine();
+        Console.WriteLine("Type age:");
+        int age = Convert.ToInt32(Console.ReadLine());
+        Console.WriteLine("hello: " + firstName + "You are" + age);
+
+        //Part 4;
+        int num1 = 12;
+        int add1 = num1 + 10;   //add1 = 22
+        int sub1 = num1 - 2;    //sub1 = 10
+        int mul1 = num1 * 3;    //mul1 = 36
+        int div1 = num1 / 2;    //div1 = 6  
+        int mod1 = num1 % 2;    //mod1 = 0
+
+        int num2 = 144;
+        int add2 = num2 + 10;   //add2 = 154
+        int sub2 = num2 - 2;    //sub2 = 142
+        int mul2 = num2 * 3;    //mul2 = 432
+        int div2 = num2 / 2;    //div2 = 72  
+        int mod2 = num2 % 2;    //mod2 = 0      
+
+        //Part 5
+        float up = 1.123456789;
+        double down = 1.123456789;
+        /*Results of part 5.  
+        When I plugged 1.123456789 into the double line it went through properly, however when I tried the float line all I got was an error.*/
+
+        //Part 6
+        int x = 10;
+        x++;
+        Console.WriteLine(x);
+        x--;
+        Console.WriteLine(x);
+
+
+    }
+}
