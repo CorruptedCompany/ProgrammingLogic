@@ -1,0 +1,82 @@
+using System.Collections;
+using System.Globalization;
+using System.Security.Cryptography.X509Certificates;
+
+namespace Lab3;
+
+class Program
+{
+    //Part 1;
+    int a = 10;
+    int b = 5;
+    int c = 15;
+
+    Console.WriteLine(a>b);
+    Console.WriteLine(a<c);
+    Console.WriteLine(a>b&&a>c);
+    Console.WriteLine(a>b||a>c);
+    
+    //Part 2;
+
+    bool isRaining = true;
+    bool haveUmbrella = false;
+    if (isRaining >= haveUmbrella)
+        {
+            Console.WriteLine("Take an Umbrella!");
+        }
+        else
+        {
+            Console.Write("You're good to go!");
+        }
+
+    //Part 3
+
+    Console.WriteLine("Enter Age:");
+    int.Parse(Console.ReadLine());
+    int userage = x;
+    if (x<5)
+    {
+        Console.Write("Ticket is free!");
+    }
+    if (x>=5&&x<=12)
+    {
+        Console.WriteLine("Child ticket: $5");
+    }
+if (x>=13&&x<=64)
+    {
+        Console.WriteLine("Standard ticket: $10");
+    }
+    if (x>=65)
+    {
+        Console.Write("Senior ticket:$6");
+    }
+    //Part 4
+    
+    Console.ReadLine(num);
+    int day = num;
+    switch (day);
+    {
+        case 1:
+            Console.WriteLine("Monday");
+            break;
+        case 2:
+            Console.WriteLine("Tuesday");
+            break;
+        case 3:
+            Console.WriteLine("Wensday");
+            break;
+        case 4:
+            Console.WriteLine("Thursday");
+            break;
+        case 5:
+            Console.WriteLine("Friday");
+            break;
+        case 6:
+            Console.WriteLine("Saturday");
+            break;
+        case 7:
+            Console.WriteLine("Sunday");
+            break;
+    }
+
+}
